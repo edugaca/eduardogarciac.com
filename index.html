@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eduardo García — Content &amp; Storytelling</title>
+<meta name="description" content="Eduardo García develops and shapes video content, from first idea to final cut, across film, series and digital platforms.">
+<link rel="canonical" href="https://www.eduardogarciac.com/">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/favicon.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.eduardogarciac.com/">
+<meta property="og:title" content="Eduardo García — Content &amp; Storytelling">
+<meta property="og:description" content="Eduardo García develops and shapes video content, from first idea to final cut, across film, series and digital platforms.">
+<meta property="og:image" content="https://www.eduardogarciac.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="color-scheme" content="light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500;700&family=Newsreader:opsz,wght@6..72,300;6..72,400&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Layout: two columns on desktop (portrait left, text column bottom-aligned right); stacked on phones. Typographic, quiet, no decoration. */
+:root{
+  --paper:#F7F8F6; --ink:#151816; --muted:#5D635F; --rule:#CDD2CE; --link:#00788A;--accent:#00788A;
+  --display:"Kumbh Sans", "Helvetica Neue", Arial, sans-serif;
+  --body:"Newsreader", Georgia, "Times New Roman", serif;
+  --mono:"IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);}
+.wrap{max-width:1040px;margin:0 auto;padding-block:clamp(32px,8vh,96px) 40px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:grid;grid-template-columns:minmax(0,4fr) minmax(0,7fr);gap:clamp(28px,6vw,88px);align-items:end}
+figure{margin:0}
+figure img{display:block;width:100%;max-width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;object-position:50% 20%}
+.text{min-width:0;display:flex;flex-direction:column;gap:28px;padding-bottom:4px}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(2.4rem,5.4vw,4.2rem);line-height:.98;letter-spacing:-.02em;margin:0;text-wrap:balance}
+.headline{font-family:var(--display);font-weight:500;color:var(--accent);font-size:clamp(1.1rem,1.8vw,1.35rem);margin:10px 0 0;letter-spacing:.005em}
+.bio{font-size:clamp(1.12rem,1.5vw,1.28rem);font-weight:300;line-height:1.55;max-width:34em;margin:0}
+.contact{list-style:none;margin:0;padding:18px 0 0;border-top:1px solid var(--rule);display:grid;gap:10px}
+.contact li{display:grid;grid-template-columns:5.5rem minmax(0,1fr);align-items:baseline;gap:12px}
+.label{font:12px/1 var(--mono);text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+.contact a{color:var(--link);text-decoration-color:color-mix(in srgb,var(--link) 45%,transparent);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;font-size:1.05rem;overflow-wrap:anywhere}
+.contact a:hover{text-decoration-thickness:2px}
+.contact a:focus-visible{outline:2px solid var(--link);outline-offset:3px}
+footer{max-width:1040px;margin:0 auto;padding-block:24px 40px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  font:12px/1 var(--mono);color:var(--muted);letter-spacing:.04em}
+@media (max-width:720px){
+  .wrap{grid-template-columns:minmax(0,1fr);align-items:start;gap:28px;padding-block:24px 24px}
+  figure{width:78%;margin-inline:auto}
+  figure img{aspect-ratio:4/4.6;object-position:50% 25%}
+  .contact li{grid-template-columns:4.6rem minmax(0,1fr)}
+  .contact a{font-size:.98rem}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <figure><img src="assets/foto.jpg" width="900" height="1032" alt="Portrait of Eduardo García"></figure>
+  <div class="text">
+    <header>
+      <h1>Eduardo García</h1>
+      <p class="headline">Content &amp; Storytelling</p>
+    </header>
+    <p class="bio">I develop and shape video content, from the first idea to the final cut. I've worked on feature films and series for Netflix and HBO, and today I create original formats and supervise post-production for a digital education platform.</p>
+    <ul class="contact">
+      <li><span class="label">Email</span><a href="mailto:eduardogarciacabre@gmail.com">eduardogarciacabre@gmail.com</a></li>
+      <li><span class="label">LinkedIn</span><a href="https://www.linkedin.com/in/eduardogarciaeditor/" target="_blank" rel="noopener">linkedin.com/in/eduardogarciaeditor</a></li>
+      <li><span class="label">IMDb</span><a href="https://www.imdb.com/name/nm5752773/" target="_blank" rel="noopener">imdb.com/name/nm5752773</a></li>
+    </ul>
+  </div>
+</main>
+<footer>© 2026 Eduardo García</footer>
+</body>
+</html>
